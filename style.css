@@ -30,7 +30,7 @@ section {
 }
 
 .btn {
-    background-color: #FFC108;
+    background-color: #b3000f;
     color: white;
     padding: 8px 24px;
 }
@@ -39,7 +39,7 @@ section {
     background-color: white;
     color: black;
     margin-right: 16px;
-    border: 2px solid #FFC108;
+    border: 2px solid #b3000f;
 }
 
 #header {
