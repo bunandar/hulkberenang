@@ -31,13 +31,13 @@ section {
 
 .btn {
     background-color: #b3000f;
-    color: white;
+    color: red;
     padding: 8px 24px;
 }
 
 .btn-alt {
     background-color: red;
-    color: black;
+    color: red;
     margin-right: 16px;
     border: 2px solid #b3000f;
 }
