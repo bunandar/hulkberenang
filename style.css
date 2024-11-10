@@ -1,28 +1,42 @@
 * {
-    font-family: "Montserrat";
+    font-family: "Sour Gummy", sans-serif;
 }
+
 
 html, body {
     padding: 0;
     margin: 0;
+    background: no-repeat url("https://freedesignfile.com/upload/2018/02/most-beautiful-scenery-of-nature-Stock-Photo-02.jpg");
+    background-size: cover;
+   
 }
+
 
 h1 {
     font-weight: 700;
     font-size: 48px;
     margin: 0 0 16px 0;
+   -webkit-text-stroke: 1px rgb(255, 255, 255);
+         color: rgb(0, 0, 0);
+         text-shadow:
+             3px 3px 0 #ffffff,
+           -1px -1px 0 #ffffff,  
+            1px -1px 0 #ffffff,
+            -1px 1px 0 #ffffff,
+             1px 1px 0 #ffffff;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 24px;
 }
 
 p {
-    color: #979797;
+    color: #000000;
     margin: 0 0 16px 0;
     font-size: 24px;
+    font-family: "Federo", sans-serif;
 }
 
 section {
@@ -30,8 +44,8 @@ section {
 }
 
 .btn {
-    background-color: #FFC108;
-    color: white;
+    background-color: #0077ff;
+    color: rgb(0, 0, 0);
     padding: 8px 24px;
 }
 
@@ -39,7 +53,7 @@ section {
     background-color: white;
     color: black;
     margin-right: 16px;
-    border: 2px solid #FFC108;
+    border: 2px solid #006eff;
 }
 
 #header {
@@ -49,13 +63,14 @@ section {
     padding: 16px 128px;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: rgb(0, 153, 255);
 }
 
 #header h1 {
     margin: 0;
     /* animation: flash 1s infinite; */
-    animation: bounceIn 1s;
+    animation: bounceIn 3s;
+    animation-delay: 250ms;
 }
 
 @keyframes bounceIn {
@@ -91,7 +106,7 @@ nav > a {
 }
 
 nav > a:hover {
-    color: #FFC108;
+    color: #00ff40;
 }
 
 #landing {
@@ -134,9 +149,9 @@ nav > a:hover {
 }
 
 .about-stats-item div {
-    width: 50px;
+    width: 100px;
     height: 10px;
-    background-color: #FFC108;
+    background-color: #0044ff;
     margin-bottom: 16px;
 }
 
@@ -169,7 +184,7 @@ nav > a:hover {
 }
 
 .service-detail-item {
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 4px rgb(0, 59, 107);
 }
 
 .service-detail-item:hover {
@@ -219,7 +234,8 @@ nav > a:hover {
 form {
     display: flex;
     flex-direction: column;
-    border: 3px solid #FFC108;
+    border: 3px solid #010047;
+    background-color: #eeff0052;
     padding: 64px 32px;
 }
 
@@ -230,7 +246,7 @@ form h1 {
 
 
 form button {
-    border: none;
+    border: 3px solid #010047;
 }
 
 form button:hover {
@@ -287,20 +303,20 @@ form button:hover {
 }
 
 .input-group input:focus {
-    border-bottom: 2px solid #FFC108;
+    border-bottom: 2px solid #00c3ffc0;
 }
 
 footer {
     padding: 16px 128px;
-    background-color: #FFC108;
-    color: white;
+    background: linear-gradient(#031e948c, #3f87a6);
+    color: rgb(39, 29, 29);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 footer p {
-    color: white;
+    color: rgb(0, 0, 0);
     width: 50%;
 }
 
